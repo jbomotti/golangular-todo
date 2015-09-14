@@ -11,7 +11,7 @@ import (
 	"github.com/gorilla/mux"
 )
 
-var tasks = task.NewTaskManager()
+var tasks = task.NewList()
 
 const PathPrefix = "/task/"
 

@@ -42,7 +42,7 @@ func (l *List) Save(task *Task) error {
       return nil
     }
   }
-  return fmt.Error("Unknown task")
+  return fmt.Errorf("Unknown task")
 }
 
 // Duplicate a task (makes a deep copy), helped with pointers
