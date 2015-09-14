@@ -1,0 +1,108 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #000;
+  background: url(nebula.jpg);
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+	/*To make the text easier on the eyes*/
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	/*End of smoothing*/
+	width: 80%;
+	max-width: 480px;
+	margin: 0 auto;
+	background: #fff;
+  /*background: url(nebula.jpg);*/
+}
+
+body, input, button {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #444;
+}
+
+*:disabled {
+	color: #888;
+}
+
+form {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3em;
+	font-weight: 200;
+	height: 70px;
+}
+
+h2 {
+  text-align: center;
+	font-size: 2em;
+	font-weight: 200;
+}
+
+li {
+  margin-left: auto;
+  margin-right: auto;
+	list-style: none;
+	padding: 5px;
+}
+
+li.completed {
+	color: #888;
+	text-decoration: line-through;
+}
+
+li > .checkbox {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: white;
+	margin-right: 8px;
+	border-radius: 2px;
+	border: 1px #ddd solid;
+}
+
+li.completed > .checkbox {
+	background: #888;
+}
+
+.rounded-box {
+	padding: 10px;
+	border-radius: 4px;
+	border: 1px #ddd solid;
+}
+
+.grey {
+	background: #eee;
+}
+
+.charcoal {
+  font-weight: bold;
+	color: #000;
+	background: #ea3636;
+}
+
+.spinner {
+	width: 15px;
+	height: 15px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	display: none;
+}
+
+.spinner.working {
+	display: block;
+}
