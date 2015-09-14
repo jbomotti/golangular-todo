@@ -6,7 +6,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/jbomotti/todo-test/server"
+	"github.com/jbomotti/golangular-todo/server"
 )
 
 func main() {
