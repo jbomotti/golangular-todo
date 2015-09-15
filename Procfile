@@ -1,1 +1,1 @@
-web: local -port=$PORT
+web: local.go -port=$PORT
