@@ -1,1 +1,1 @@
-web: golang-todo
+web: golangular-todo
