@@ -1,1 +1,1 @@
-web: local.go
+web: go run local.go
