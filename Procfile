@@ -1,1 +1,1 @@
-web: golangular-todo
+web: golangular-todo -p $PORT
