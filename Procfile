@@ -1,1 +1,1 @@
-web: 'todo/local' -port=$PORT
+web: local -port=$PORT
