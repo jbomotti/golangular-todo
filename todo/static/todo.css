@@ -57,11 +57,13 @@ li {
   margin-right: auto;
 	list-style: none;
 	padding: 5px;
+  font-weight: bold;
 }
 
 li.completed {
 	color: #888;
 	text-decoration: line-through;
+  font-weight: normal;
 }
 
 li > .checkbox {
@@ -71,7 +73,7 @@ li > .checkbox {
 	background: white;
 	margin-right: 8px;
 	border-radius: 2px;
-	border: 1px #ddd solid;
+	border: 1px #323232 solid;
 }
 
 li.completed > .checkbox {
@@ -88,10 +90,16 @@ li.completed > .checkbox {
 	background: #eee;
 }
 
-.charcoal {
+.title {
   font-weight: bold;
 	color: #000;
 	background: #ea3636;
+}
+
+.blue {
+  background: #22b7f6;
+  color: #fff;
+  font-weight: bold;
 }
 
 .spinner {

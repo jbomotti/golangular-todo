@@ -15,12 +15,12 @@ function TaskCtrl($scope, $http) {
 
   $scope.addTask = function() {
     $scope.working = true;
-    $http.post('/task/', {Title: $scope.todoText}).
+    $http.post('/task/', {Title: $scope.taskText}).
       error(logError).
       success(function() {
         refresh().then(function() {
           $scope.working = false;
-          $scope.todoText = '';
+          $scope.taskText = '';
         })
       });
   };
