@@ -1,1 +1,1 @@
-web: local.go -p $PORT
+web: golang-todo
