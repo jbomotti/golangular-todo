@@ -1,1 +1,1 @@
-web: local -p $PORT
+web: local.go -p $PORT
